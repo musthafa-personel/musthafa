@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Musthafa - About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-left: 1rem;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .skills {
+            background-color: #f9f9f9;
+            padding: 2rem;
+        }
+        .skills h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            font-size: 1.1rem;
+            margin: 0.5rem 0;
+            display: flex;
+            align-items: center;
+        }
+        .skills ul li::before {
+            content: "✔";
+            color: #4CAF50;
+            margin-right: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Video -->
+    <video class="video-background" autoplay muted loop>
+        <source src="background--video.mp4" type="video/mp4">
+        
+</video>
+
+    <!-- Header Section -->
+    <header>
+        <div>
+            <h1>Muhammed Musthafa</h1>
+            <p>Professional Graphic Designer & PowerPoint Expert</p>
+        </div>
+        <img src="musthafa.jpg" alt="Muhammed Musthafa" class="profile-photo">
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Hello! My name is Muhammed Musthafa. I am 13 years old (20-09-2011) and a passionate professional graphic designer and PowerPoint expert. I love creating stunning designs and presentations that leave a lasting impression!</p>
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Professional Graphic Design</li>
+                <li>PowerPoint Expert</li>
+                <li>Creative Presentations</li>
+                <li>Attention to Detail</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+     <br> 
+     <br> 
+     <br>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Created by: Muhammed Musthafa | <a href="mailto:leafthevoyageofdesign@gmail.com">Contact Me for inquiries</a></p>
+    </footer>
+</body>
+</html>
